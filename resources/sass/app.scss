@@ -1,0 +1,95 @@
+@import "bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;1,300&display=swap');
+body{
+    font-family: 'Lato', sans-serif;
+}
+.brand {
+    .navbar-brand {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        font-size: 1.25rem;
+        line-height: inherit;
+        white-space: nowrap;
+
+        .inner-brand svg {
+            top: -1 px;
+            position: relative;
+            height: 24px;
+
+            g {
+                fill: #f74264;
+            }
+        }
+
+        span {
+            font-size: 24px;
+            line-height: 24px;
+            color: #fff;
+            font-weight: 700;
+            display: table-cell;
+            vertical-align: middle;
+            position: relative;
+            left: -5 px;
+            font-family: proxima-nova,sans-serif!important;
+        }
+    }
+}
+
+.sign-in-page {
+    .sign-cover {
+        width: calc(100% + 15px);
+        height: 100%;
+        background-position: left center;
+        background-image: url("/img/office.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .sign-in-container {
+        background-color: #1b212e !important;
+    }
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    background-color: hsla(0,0%,100%,.05);
+    background-clip: padding-box;
+    border: 1px solid hsla(0,0%,100%,.05);
+    border-radius: 3px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    &:focus {
+        color: #fff;
+        background-color: hsla(0,0%,100%,.05);
+        border-color: hsla(0,0%,100%,.05);
+        outline: 0;
+        box-shadow: none;
+    }
+}
+.vh-100 {
+    height: 100vh !important;
+}
+alert-danger {
+    color: #900c10;
+    background-color: #fcc;
+    border-color: #ffb8b8;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #f74264;
+    border-color: #f74264 !important;
+
+    &:hover, &:active{
+            color: #fff;
+            background-color: #f51d46 !important;
+            border-color: #f5113c !important;
+    }
+}
