@@ -224,3 +224,4 @@ But, firstly you must make `arena_api_test` database in your local MySQL server.
  3. For generating dummy data you should use 
  [Laravel Factories](https://laravel.com/docs/7.x/database-testing#generating-factories)
  4. When you write `unit` test you should change parent class to `Tests\TestCase`.
+
